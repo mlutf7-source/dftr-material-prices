@@ -24,14 +24,14 @@ jobs:
       - name: Update prices from GUYC
         run: node scripts/update-prices.cjs
 
-      - name: Commit updated prices
+      - name: Commit updated files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add prices.json index.html source-text-preview.txt
           if git diff --cached --quiet; then
-            echo "No price changes"
+            echo "No changes to commit"
           else
-            git commit -m "Update material prices"
+            git commit -m "Update material prices page"
             git push
           fi
