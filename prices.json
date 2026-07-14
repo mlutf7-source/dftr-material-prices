@@ -1,0 +1,44 @@
+[
+  {
+    "id": "steel-aden-01",
+    "category": "حديد",
+    "name": "حديد تسليح",
+    "unit": "طن",
+    "priceFrom": 410000,
+    "priceTo": 415000,
+    "currency": "YER",
+    "city": "عدن",
+    "sourceName": "مصدر أسعار مواد البناء",
+    "sourceUrl": "https://example.com",
+    "updatedAt": "2026-07-14",
+    "confidence": "متوسط"
+  },
+  {
+    "id": "cement-aden-01",
+    "category": "أسمنت",
+    "name": "أسمنت",
+    "unit": "كيس",
+    "priceFrom": 3300,
+    "priceTo": 3500,
+    "currency": "YER",
+    "city": "عدن",
+    "sourceName": "مصدر أسعار مواد البناء",
+    "sourceUrl": "https://example.com",
+    "updatedAt": "2026-07-14",
+    "confidence": "متوسط"
+  },
+  {
+    "id": "block-aden-01",
+    "category": "بلك",
+    "name": "بلك إسمنتي",
+    "unit": "حبة",
+    "priceFrom": 280,
+    "priceTo": 320,
+    "currency": "YER",
+    "city": "عدن",
+    "sourceName": "مصدر أسعار مواد البناء",
+    "sourceUrl": "https://example.com",
+    "updatedAt": "2026-07-14",
+    "confidence": "متوسط"
+  }
+]
