@@ -9,43 +9,2450 @@
   <title>أسعار مواد البناء اليوم</title>
 
   <style>
-    html,
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background: #ffffff;
-      font-family: Arial, sans-serif;
+      background: #f3f6ff;
+      color: #1f2937;
+      font-family: Arial, Tahoma, sans-serif;
+      line-height: 1.7;
     }
 
-    .top-bar {
-      background: #0f3f8c;
-      color: white;
-      padding: 10px 12px;
-      font-size: 15px;
-      font-weight: 700;
+    .hero {
+      background: linear-gradient(135deg, #0f3f8c, #155ed1);
+      color: #fff;
+      padding: 18px 14px;
       text-align: center;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      box-shadow: 0 10px 28px rgba(15, 63, 140, .25);
     }
 
-    iframe {
+    .hero h1 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 800;
+    }
+
+    .hero p {
+      margin: 8px 0 0;
+      font-size: .82rem;
+      opacity: .92;
+    }
+
+    .container {
+      padding: 12px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .info-card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 12px;
+      margin-bottom: 12px;
+      box-shadow: 0 8px 24px rgba(15, 63, 140, .08);
+      border: 1px solid #e5e7eb;
+      font-size: .86rem;
+    }
+
+    .info-card a {
+      color: #0f3f8c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .price-section {
+      background: #fff;
+      border-radius: 18px;
+      margin-bottom: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(15, 63, 140, .08);
+      border: 1px solid #e5e7eb;
+    }
+
+    .price-section h2 {
+      margin: 0;
+      padding: 11px 12px;
+      background: #0f3f8c;
+      color: #fff;
+      font-size: .95rem;
+      font-weight: 800;
+    }
+
+    .table-wrap {
       width: 100%;
-      height: calc(100vh - 42px);
-      border: 0;
-      display: block;
-      background: white;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      min-width: 620px;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    th {
+      background: #eef4ff;
+      color: #003366;
+      font-size: .78rem;
+      padding: 9px 7px;
+      border: 1px solid #dbeafe;
+      white-space: nowrap;
+    }
+
+    td {
+      font-size: .78rem;
+      padding: 9px 7px;
+      border: 1px solid #e5e7eb;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    td.name {
+      text-align: right;
+      white-space: normal;
+      min-width: 210px;
+      font-weight: 700;
+    }
+
+    td.price {
+      font-weight: 800;
+      color: #0f3f8c;
+    }
+
+    td.num {
+      color: #6b7280;
+      width: 42px;
+    }
+
+    .footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: .75rem;
+      padding: 18px 10px 28px;
     }
   </style>
 </head>
 
 <body>
-  <div class="top-bar">
-    أسعار مواد البناء الأساسية - منصة الاتحاد
+  <div class="hero">
+    <h1>🏷️ أسعار مواد البناء الأساسية اليوم</h1>
+    <p>المصدر: منصة الاتحاد - صنعاء</p>
   </div>
 
-  <iframe
-    src="https://guyc-yemen.com/price-ar/"
-    title="منصة الاتحاد"
-  ></iframe>
+  <main class="container">
+    <div class="info-card">
+      <b>آخر تحديث:</b>
+      2025-01-01
+      <br />
+      <b>المصدر:</b>
+      <a href="https://guyc-yemen.com/price-ar/" target="_blank" rel="noreferrer">
+        فتح صفحة منصة الاتحاد
+      </a>
+    </div>
+
+    
+        <section class="price-section">
+          <h2>حديد التسليح</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">الحديد قطر (10.12.14.16) طن</td>
+            <td>طن</td>
+            <td class="price">385000</td>
+            <td class="price">390000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">الحديد قطر 8 طن</td>
+            <td>طن</td>
+            <td class="price">400000</td>
+            <td class="price">405000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">الحديد ضغط 60 طن</td>
+            <td>طن</td>
+            <td class="price">405000</td>
+            <td class="price">410000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الخرسانه المركزية</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">أبو 7 أكياس م3</td>
+            <td>م³</td>
+            <td class="price">42000</td>
+            <td class="price">43000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">أبو 6 أكياس م3</td>
+            <td>م³</td>
+            <td class="price">38000</td>
+            <td class="price">39000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الأسمنت</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">العمراني الكيس 3500</td>
+            <td>الكيس</td>
+            <td class="price">3500</td>
+            <td class="price">3500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">الحضرمي الكيس</td>
+            <td>الكيس</td>
+            <td class="price">3300</td>
+            <td class="price">3400</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">الوطنية الأخضر الكيس</td>
+            <td>طن</td>
+            <td class="price">3200</td>
+            <td class="price">3300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">الوطنية الأحمر الكيس</td>
+            <td>طن</td>
+            <td class="price">3400</td>
+            <td class="price">3500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">الوطنية التشطيبات الكيس</td>
+            <td>طن</td>
+            <td class="price">3000</td>
+            <td class="price">3100</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">اسمنت ريسوت ( عماني ) الكيس</td>
+            <td>الكيس</td>
+            <td class="price">2900</td>
+            <td class="price">3000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>النيس</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">قلاب ديهاتسو القلاب 1.5 م3</td>
+            <td>م³</td>
+            <td class="price">14000</td>
+            <td class="price">15000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">قلاب مجنون القلاب 2.5 م3</td>
+            <td>م³</td>
+            <td class="price">26000</td>
+            <td class="price">29000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">قلاب ( عايدي ) القلاب 2.5 قلاب مجنون</td>
+            <td>قلاب</td>
+            <td class="price">53000</td>
+            <td class="price">60000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">قلاب ( سكس ) القلاب من 20 الى 22 م3</td>
+            <td>م³</td>
+            <td class="price">120000</td>
+            <td class="price">130000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الكري</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">قلاب ديهاتسو مخلوط نص هنش 1.5 م3</td>
+            <td>م³</td>
+            <td class="price">22000</td>
+            <td class="price">25000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">قلاب ديهاتسو ربع هنش 1.5 م3</td>
+            <td>م³</td>
+            <td class="price">25000</td>
+            <td class="price">28000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">قلاب مجنون مخلوط نص هنش 2.5 م3</td>
+            <td>م³</td>
+            <td class="price">33000</td>
+            <td class="price">35000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">قلاب مجنون ربع هنش 2.5 م3</td>
+            <td>م³</td>
+            <td class="price">35000</td>
+            <td class="price">37000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">قلاب عايدي مخلوط نص هنش 2.5 قلاب مجنون</td>
+            <td>قلاب</td>
+            <td class="price">75000</td>
+            <td class="price">80000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">قلاب عايدي ربع هنش 2.5 قلاب مجنون</td>
+            <td>قلاب</td>
+            <td class="price">80000</td>
+            <td class="price">85000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">قلاب سكس مخلوط نص هنش من 20 الى 22 م3</td>
+            <td>م³</td>
+            <td class="price">140000</td>
+            <td class="price">150000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">قلاب سكس ربع هنش من 20 الى 22 م3</td>
+            <td>م³</td>
+            <td class="price">155000</td>
+            <td class="price">160000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>البلوك الأوتوماتيكي</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">صم 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">480</td>
+            <td class="price">500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">صم 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">380</td>
+            <td class="price">400</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">محرق ثقيل 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">400</td>
+            <td class="price">420</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">مخرق ثقيل 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">340</td>
+            <td class="price">350</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">مخرق خفيف 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">280</td>
+            <td class="price">300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">مخرق خفيف 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">260</td>
+            <td class="price">280</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">هردي 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">280</td>
+            <td class="price">290</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">هردي 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">260</td>
+            <td class="price">270</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>البلوك الويفر أو اليدوي</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">صم 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">350</td>
+            <td class="price">360</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">صم 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">240</td>
+            <td class="price">250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">محرق 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">220</td>
+            <td class="price">250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">مخرق 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">200</td>
+            <td class="price">230</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">هردي 20 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">200</td>
+            <td class="price">210</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">هردي 15 سم حبة</td>
+            <td>حبة</td>
+            <td class="price">180</td>
+            <td class="price">190</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>عقود النوافذ الجاهزة</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 20 وطول60 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2500</td>
+            <td class="price">2750</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">مقاس 15 وطول 60 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2300</td>
+            <td class="price">2600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">مقاس 20 وطول 70 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2700</td>
+            <td class="price">2950</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">مقاس 15 وطول 70 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2500</td>
+            <td class="price">2700</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">مقاس 20 وطول 80 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2950</td>
+            <td class="price">3200</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">مقاس 15 وطول 80سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2800</td>
+            <td class="price">3000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">مقاس 20 وطول 90 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">3100</td>
+            <td class="price">3300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">مقاس 15 وطول 90سم عقد</td>
+            <td>عقد</td>
+            <td class="price">2900</td>
+            <td class="price">3200</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">9</td>
+            <td class="name">مقاس 20 وطول 100 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">3300</td>
+            <td class="price">3500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">10</td>
+            <td class="name">مقاس 15 وطول 100 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">3500</td>
+            <td class="price">3800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">11</td>
+            <td class="name">مقاس 20 وطول 110 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">3100</td>
+            <td class="price">3300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">12</td>
+            <td class="name">مقاس 15 وطول 110سم عقد</td>
+            <td>عقد</td>
+            <td class="price">3300</td>
+            <td class="price">3600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">13</td>
+            <td class="name">مقاس 20 وطول 120 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">4300</td>
+            <td class="price">4600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">14</td>
+            <td class="name">مقاس 15 وطول 120 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">4300</td>
+            <td class="price">4600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">15</td>
+            <td class="name">مقاس 20 وطول 130 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">4950</td>
+            <td class="price">5250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">16</td>
+            <td class="name">مقاس 15 وطول 130 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">4500</td>
+            <td class="price">4900</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">17</td>
+            <td class="name">مقاس 20 وطول 140 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">5500</td>
+            <td class="price">5800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">18</td>
+            <td class="name">مقاس 15 وطول 140 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">4950</td>
+            <td class="price">5250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">19</td>
+            <td class="name">مقاس 20 وطول 150 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">6950</td>
+            <td class="price">7400</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">20</td>
+            <td class="name">مقاس 15 وطول 150 سم عقد</td>
+            <td>عقد</td>
+            <td class="price">6450</td>
+            <td class="price">6850</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>المرادم</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 20 وطول 80 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">1800</td>
+            <td class="price">2100</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">مقاس 15 وطول 80 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">1700</td>
+            <td class="price">1950</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">مقاس 20 وطول 100 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">2800</td>
+            <td class="price">3110</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">مقاس 15 وطول 100سم مردم</td>
+            <td>مردم</td>
+            <td class="price">2500</td>
+            <td class="price">2850</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">مقاس 20 وطول 120 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3200</td>
+            <td class="price">3500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">مقاس 15 وطول 120سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3000</td>
+            <td class="price">3300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">مقاس 20 وطول 130 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3300</td>
+            <td class="price">3600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">مقاس 15 وطول 130سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3100</td>
+            <td class="price">3400</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">9</td>
+            <td class="name">مقاس 20 وطول 140 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3700</td>
+            <td class="price">3950</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">10</td>
+            <td class="name">مقاس 15 وطول 140 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3500</td>
+            <td class="price">3800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">11</td>
+            <td class="name">مقاس 20 وطول 150 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">4000</td>
+            <td class="price">4300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">12</td>
+            <td class="name">مقاس 15 وطول 150سم مردم</td>
+            <td>مردم</td>
+            <td class="price">3700</td>
+            <td class="price">3950</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">13</td>
+            <td class="name">مقاس 20 وطول 160 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">4300</td>
+            <td class="price">4600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">14</td>
+            <td class="name">مقاس 15 وطول 160 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">4300</td>
+            <td class="price">4600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">15</td>
+            <td class="name">مقاس 20 وطول 170 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">4950</td>
+            <td class="price">5250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">16</td>
+            <td class="name">مقاس 15 وطول 170 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">4500</td>
+            <td class="price">4900</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">17</td>
+            <td class="name">مقاس 20 وطول 180 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">5500</td>
+            <td class="price">5800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">18</td>
+            <td class="name">مقاس 15 وطول 180 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">4950</td>
+            <td class="price">5250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">19</td>
+            <td class="name">مقاس 20 وطول 200 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">6950</td>
+            <td class="price">7400</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">20</td>
+            <td class="name">مقاس 15 وطول 200 سم مردم</td>
+            <td>مردم</td>
+            <td class="price">6450</td>
+            <td class="price">6850</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>أحجار البلق والجعم</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">البلق الأصفر الواجهي ( درجة اولى صافية 》نهمية ) 100 حبة</td>
+            <td>100 حبة</td>
+            <td class="price">48000</td>
+            <td class="price">52000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">البلق الأصفر الواجهي ( درجة ثانية معرقة 》 جرموزية ) 100 حبة</td>
+            <td>100 حبة</td>
+            <td class="price">45000</td>
+            <td class="price">48000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">البلق الأصفر مثاني ( درجة اولى 》 نهمية ) 100 حبة</td>
+            <td>100 حبة</td>
+            <td class="price">34000</td>
+            <td class="price">36000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">البلق الأصفر مثاني ( درجة ثانية 》جرموزية ) 100 حبة</td>
+            <td>100 حبة</td>
+            <td class="price">30000</td>
+            <td class="price">33000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">صورع الأسود الواجهي 100 حبة</td>
+            <td>100 حبة</td>
+            <td class="price">60000</td>
+            <td class="price">65000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">جعم السايلة قلاب ديهاتسو حجم القلاب</td>
+            <td>حجم القلاب</td>
+            <td class="price">25000</td>
+            <td class="price">26000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">جعم السايلة قلاب مجنون حجم القلاب</td>
+            <td>حجم القلاب</td>
+            <td class="price">50000</td>
+            <td class="price">55000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">جعم السايلة قلاب نيسان حجم القلاب</td>
+            <td>حجم القلاب</td>
+            <td class="price">60000</td>
+            <td class="price">65000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">9</td>
+            <td class="name">جعم الاسود فلاب ديهاتسو حجم القلاب</td>
+            <td>حجم القلاب</td>
+            <td class="price">30000</td>
+            <td class="price">33000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">10</td>
+            <td class="name">الجعم الأسود قلاب مجنون حجم القلاب</td>
+            <td>حجم القلاب</td>
+            <td class="price">55000</td>
+            <td class="price">60000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">11</td>
+            <td class="name">جعم الاسود قلاب نيسان حجم القلاب</td>
+            <td>حجم القلاب</td>
+            <td class="price">75000</td>
+            <td class="price">80000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر العلم الماربي</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">14000</td>
+            <td class="price">16000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">3300</td>
+            <td class="price">3900</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر الجوفية</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">9500</td>
+            <td class="price">14000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">لمتر الطولي للوجه</td>
+            <td>متر</td>
+            <td class="price">2400</td>
+            <td class="price">3900</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر الجهراني ( ذماري )</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">10.000</td>
+            <td class="price">14000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">2500</td>
+            <td class="price">3000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر الحنشي ( ذماري )</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">10000</td>
+            <td class="price">15000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">2500</td>
+            <td class="price">3500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر الحبش ( ذماري )</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">12000</td>
+            <td class="price">15000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">2500</td>
+            <td class="price">3000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر الحمراء</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">16000</td>
+            <td class="price">19000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">4000</td>
+            <td class="price">5000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الحجر الحمراء الكبدية</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">16000</td>
+            <td class="price">19000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">4000</td>
+            <td class="price">5000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">حجار حدائية المتر المربع للوجه</td>
+            <td>المتر المربع</td>
+            <td class="price">14000</td>
+            <td class="price">18000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">حجار حدائية المتر الطولي للوجه</td>
+            <td>المتر الطولي</td>
+            <td class="price">3500</td>
+            <td class="price">4500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الياجور</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">الأسود المحروق الكبير حبه</td>
+            <td>حبة</td>
+            <td class="price">120</td>
+            <td class="price">125</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">الأسود المحروق الصغير حبه</td>
+            <td>حبة</td>
+            <td class="price">85</td>
+            <td class="price">90</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">الاحمر المخلوط الكبير حبه</td>
+            <td>حبة</td>
+            <td class="price">70</td>
+            <td class="price">75</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">الاحمر المخلوط الصغير حبه</td>
+            <td>حبة</td>
+            <td class="price">40</td>
+            <td class="price">45</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>عدد القرميد في المتر المربع 41 حبة</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">عددالزوايا للمتر المربع 2.5 حبة م2</td>
+            <td>م²</td>
+            <td class="price">9000</td>
+            <td class="price">9500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>البلوك المجوف الاحمر السعودي مقاس 30 × 20 × 20</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">حبة</td>
+            <td>حبة</td>
+            <td class="price">900</td>
+            <td class="price">950</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>البلوك المجوف الاحمر السعودي مقاس 30 × 20 × 15</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">حبة</td>
+            <td>حبة</td>
+            <td class="price">800</td>
+            <td class="price">850</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الطوب السعودي الصم</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 24× 12 × 7 حبة</td>
+            <td>حبة</td>
+            <td class="price">530</td>
+            <td class="price">550</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الطوب اليمني الصم</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 24 × 12 × 5 حبة</td>
+            <td>حبة</td>
+            <td class="price">430</td>
+            <td class="price">450</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الطوب السعودي مخرق</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 24× 12 × 7 حبة</td>
+            <td>حبة</td>
+            <td class="price">550</td>
+            <td class="price">600</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الطوب اليمني مخرق</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 27 × 13 × 7 حبة</td>
+            <td>حبة</td>
+            <td class="price">430</td>
+            <td class="price">450</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">طوب سعودي ملك الانترلوك مخرق مقاس 22 × 10.5 × 6 حبة</td>
+            <td>حبة</td>
+            <td class="price">380</td>
+            <td class="price">400</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">طوب حراري سعودي صم مقاس 23 × 12 × 7 حبة</td>
+            <td>حبة</td>
+            <td class="price">6.5</td>
+            <td class="price">7</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الزخارف والطوب</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">بلوك زخرفة للسترة مقاس 20 × 20 سم حبه</td>
+            <td>حبة</td>
+            <td class="price">220</td>
+            <td class="price">230</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">بلوك زخرفة للسترة مقاس 25 × 25 سم حبه</td>
+            <td>حبة</td>
+            <td class="price">240</td>
+            <td class="price">250</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">طوب زينة للعقود ( المبروم ) ابو 20 سم حبه</td>
+            <td>حبة</td>
+            <td class="price">90</td>
+            <td class="price">100</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">طوب زينة للعقود ( المبروم ) ابو 25 سم حبه</td>
+            <td>حبة</td>
+            <td class="price">110</td>
+            <td class="price">120</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">طوب زينة للعقود ( المربع ) ابو 20 سم حبه</td>
+            <td>حبة</td>
+            <td class="price">90</td>
+            <td class="price">100</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">طوب الزينة للعقود ( المربع )ابو 25 سم حبه</td>
+            <td>حبة</td>
+            <td class="price">110</td>
+            <td class="price">120</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>خشب البناء</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 4 × 6 &gt;&gt;&gt; طول 6 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">24000</td>
+            <td class="price">24500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">مقاس 4 × 6 &gt;&gt;&gt; طول 4.9 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">19000</td>
+            <td class="price">19500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">مقاس 4 × 6 &gt;&gt;&gt; طول 4 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">17000</td>
+            <td class="price">17500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">مقاس 4 × 6 &gt;&gt;&gt; طول 3.7 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">14500</td>
+            <td class="price">15000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">مقاس 4 × 6 &gt;&gt;&gt; طول 3.4 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">13200</td>
+            <td class="price">13500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">مقاس 4 × 6 &gt;&gt;&gt; طول 3 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">12000</td>
+            <td class="price">12500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 6 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">18500</td>
+            <td class="price">19000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 5.5 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">16300</td>
+            <td class="price">16500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">9</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 4.9 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">14500</td>
+            <td class="price">15000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">10</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 4.3 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">13000</td>
+            <td class="price">13500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">11</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 4 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">12000</td>
+            <td class="price">12500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">12</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 3.7 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">11000</td>
+            <td class="price">11500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">13</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 3.4 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">9500</td>
+            <td class="price">9800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">14</td>
+            <td class="name">مقاس 3 × 6 &gt;&gt;&gt; طول 3 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">9000</td>
+            <td class="price">9300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">15</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 6 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">15000</td>
+            <td class="price">15500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">16</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 5.5 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">13800</td>
+            <td class="price">14000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">17</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 4.9 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">11500</td>
+            <td class="price">12000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">18</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 4.3 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">10500</td>
+            <td class="price">11000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">19</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 4 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">10000</td>
+            <td class="price">10200</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">20</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 3.7 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">9500</td>
+            <td class="price">9800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">21</td>
+            <td class="name">مقاس 3 × 5 &gt;&gt;&gt; طول 3 م المربوع</td>
+            <td>المربوع</td>
+            <td class="price">7200</td>
+            <td class="price">7500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">22</td>
+            <td class="name">البليوت سمك 18 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">20000</td>
+            <td class="price">20500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">23</td>
+            <td class="name">البليوت سمك 15 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">16500</td>
+            <td class="price">17000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">24</td>
+            <td class="name">البليوت سمك 12 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">14000</td>
+            <td class="price">14500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">25</td>
+            <td class="name">البليوت سمك9 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">10500</td>
+            <td class="price">11000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">26</td>
+            <td class="name">البليوت سمك 6 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">7800</td>
+            <td class="price">8500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">27</td>
+            <td class="name">البليوت سمك 4 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">6000</td>
+            <td class="price">6300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الألواح خشب سويدي</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">سماكة 2.5 ملم المتر المكعب</td>
+            <td>المتر المكعب</td>
+            <td class="price">320000</td>
+            <td class="price">325000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">سماكة 2.2 ملم المتر المكعب</td>
+            <td>المتر المكعب</td>
+            <td class="price">305000</td>
+            <td class="price">310000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الألواح خشب فلندي</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">سماكة 2.5 ملم المتر المكعب</td>
+            <td>المتر المكعب</td>
+            <td class="price">310000</td>
+            <td class="price">315000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">سماكة 2.2 ملم المتر المكعب</td>
+            <td>المتر المكعب</td>
+            <td class="price">290000</td>
+            <td class="price">295000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">المرابيع خشب سويدي المتر المكعب</td>
+            <td>المتر المكعب</td>
+            <td class="price">300000</td>
+            <td class="price">305000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">المرابيع خشب فلندي المتر المكعب</td>
+            <td>المتر المكعب</td>
+            <td class="price">270000</td>
+            <td class="price">280000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">الحبة</td>
+            <td>حبة</td>
+            <td class="price">9500</td>
+            <td class="price">10500</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الجسور المعدنية والشلمانات والزنج</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">الزنج المحلي ( نلتا ) ابيض مقاس 0.4 مقاس 1 × 6 م</td>
+            <td>-</td>
+            <td class="price">145</td>
+            <td class="price">155</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">الزنج المحلي ( نلتا ) ابيض مقاس 0.35 مقاس 1 × 6 م</td>
+            <td>-</td>
+            <td class="price">125</td>
+            <td class="price">135</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">الزنج المحلي ( نلتا ) ابيض مقاس 0.28 مقاس 1 × 6 م</td>
+            <td>-</td>
+            <td class="price">100</td>
+            <td class="price">105</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">الزنج المحلي ( نلتا ) مجلفن مقاس 0.4 مقاس 1 × 6 م</td>
+            <td>-</td>
+            <td class="price">125</td>
+            <td class="price">130</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">الزنج المحلي ( نلتا ) مجلفن مقاس 0.35 مقاس 1 × 6 م</td>
+            <td>-</td>
+            <td class="price">115</td>
+            <td class="price">120</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">6</td>
+            <td class="name">زنج ضوئي مقاس 1 × 3 م</td>
+            <td>-</td>
+            <td class="price">70</td>
+            <td class="price">75</td>
+            <td>ريال سعودي</td>
+          </tr>
+        
+          <tr>
+            <td class="num">7</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">8</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">9</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">10</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">11</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">12</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">13</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">14</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">15</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">16</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">17</td>
+            <td class="name">قريبا الحبه قريبا قريبا</td>
+            <td>حبة</td>
+            <td class="price">-</td>
+            <td class="price">-</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+        <section class="price-section">
+          <h2>الواح خشب كرتوني MDF</h2>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>اسم المنتج</th>
+                  <th>الوحدة</th>
+                  <th>السعر من</th>
+                  <th>السعر إلى</th>
+                  <th>العملة</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+          <tr>
+            <td class="num">1</td>
+            <td class="name">مقاس 18 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">11800</td>
+            <td class="price">12300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">2</td>
+            <td class="name">مقاس 15 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">9800</td>
+            <td class="price">10000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">3</td>
+            <td class="name">مقاس 12 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">7800</td>
+            <td class="price">8000</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">4</td>
+            <td class="name">مقاس 9 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">6000</td>
+            <td class="price">6300</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+          <tr>
+            <td class="num">5</td>
+            <td class="name">مقاس 6 ملم لوح</td>
+            <td>لوح</td>
+            <td class="price">4400</td>
+            <td class="price">4800</td>
+            <td>ريال يمني</td>
+          </tr>
+        
+              </tbody>
+            </table>
+          </div>
+        </section>
+      
+
+    <div class="footer">
+      يتم تحديث هذه الصفحة تلقائيًا من المصدر عند تشغيل GitHub Actions.
+    </div>
+  </main>
 </body>
 </html>
